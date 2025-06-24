@@ -1,23 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root {
-    /* Couleurs principales */
-    --primary: #5e17eb;
-    --primary-light: #8f5cf7;
-    --primary-dark: #3a0ca3;
-    --secondary: #10375d;
-    --secondary-light: #155196;
-    --secondary-dark: #0a2236;
-
-    /* Dégradés */
-    --bg-gradient-onyx: linear-gradient(to bottom right, #10375d 3%, #5e17eb 97%);
-    --bg-gradient-jet: linear-gradient(to bottom right, #10375d40 3%, #5e17eb00 100%), #10375d;
+    --bg-gradient-onyx: linear-gradient(to bottom right, #5e17eb 3%, #10375d 97%);
+    --bg-gradient-jet: linear-gradient(to bottom right, #5e17eb40 3%, #10375d00 100%), #10375d;
     --bg-gradient-yellow1: linear-gradient(to bottom right, #5e17eb 0%, #8f5cf700 50%);
     --bg-gradient-yellow2: linear-gradient(135deg, #5e17eb40 0%, #8f5cf700 60%), #10375d;
     --border-gradient-onyx: linear-gradient(to bottom right, #5e17eb 0%, #5e17eb00 50%);
     --text-gradient-yellow: linear-gradient(to right, #5e17eb, #8f5cf7);
 
-    /* Neutres et fonds */
     --jet: #22223b;
     --onyx: #2c2c54;
     --eerie-black1: #181825;
@@ -31,10 +20,9 @@
     --light-gray70: #e0e0e0b3;
     --bittersweet-shimmer: #e4572e;
 
-    /* Typo */
+
     --ff-poppins: 'Poppins', sans-serif;
 
-    /* Font sizes */
     --fs1: 24px;
     --fs2: 18px;
     --fs3: 17px;
@@ -44,23 +32,21 @@
     --fs7: 13px;
     --fs8: 12px;
 
-    /* Font weights */
     --fw300: 300;
     --fw400: 400;
     --fw500: 500;
     --fw600: 600;
 
-    /* Ombres */
-    --shadow1: -4px 8px 24px #00000040;
-    --shadow2: 0px 16px 30px #00000040;
-    --shadow3: 0px 16px 40px #00000040;
-    --shadow4: 0px 25px 50px #00000026;
-    --shadow5: 0px 24px 80px #00000040;
+    --shadow1: -4px 8px 24px hsla(0, 0%, 0%, .25);
+    --shadow2: 0px 16px 30px hsla(0, 0%, 0%, .25);
+    --shadow3: 0px 16px 40px hsla(0, 0%, 0%, .25);
+    --shadow4: 0px 25px 50px hsla(0, 0%, 0%, .15);
+    --shadow5: 0px 24px 80px hsla(0, 0%, 0%, .25);
 
-    /* Transitions */
     --transition1: .25s ease;
     --transition2: .5s ease-in-out;
 }
+
 
 *, *::before, *::after {
     margin: 0;
