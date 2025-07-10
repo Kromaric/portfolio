@@ -703,7 +703,7 @@ article { display: none; }
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
     .skill .title-wrapper data {
@@ -723,6 +723,29 @@ article { display: none; }
     background: var(--text-gradient-yellow);
     height: 100%;
     border-radius: inherit;
+}
+
+
+
+/* SOFT SKILLS */
+.soft-skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes fixes */
+    gap: 25px;
+    padding: 30px 20px; /* augmente la hauteur de la row */
+    min-height: 100%;  /* ajuste selon la hauteur souhaitée */
+}
+
+.soft-skills-item {
+    padding: 25px 15px;
+    border-radius: 14px;
+    box-shadow: var(--shadow2);
+    position: relative;
+    background: var(--bg-gradient-jet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
 }
 
 /*PORTFOLIO*/
@@ -1173,6 +1196,7 @@ textarea.form-input {
     .content-card {
         padding: 30px;
         padding-top: 25px;
+        margin-bottom: 25px;
     }
 
     .testimonials-avatar-box {
